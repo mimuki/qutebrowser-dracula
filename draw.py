@@ -96,16 +96,16 @@ def blood(c, options = {}):
 
     ## Background color for hints. Note that you can use a `rgba(...)` value
     ## for transparency.
-    c.colors.hints.bg = palette['background']
+    c.colors.hints.bg = palette['purple']
 
     ## Font color for hints.
-    c.colors.hints.fg = palette['purple']
+    c.colors.hints.fg = palette['background']
 
     ## Hints
-    c.hints.border = '1px solid ' + palette['background-alt']
+    c.hints.border = '0px solid ' + palette['background-alt']
 
     ## Font color for the matched part of hints.
-    c.colors.hints.match.fg = palette['foreground-alt']
+    c.colors.hints.match.fg = palette['background']
 
     ## Background color of the keyhint widget.
     c.colors.keyhint.bg = palette['background']
@@ -270,19 +270,19 @@ def blood(c, options = {}):
 
     # ## Background color of selected even tabs.
     # ## Type: QtColor
-    c.colors.tabs.selected.even.bg = palette['background']
+    c.colors.tabs.selected.even.bg = palette['purple']
 
     # ## Foreground color of selected even tabs.
     # ## Type: QtColor
-    c.colors.tabs.selected.even.fg = palette['foreground']
+    c.colors.tabs.selected.even.fg = palette['background']
 
     # ## Background color of selected odd tabs.
     # ## Type: QtColor
-    c.colors.tabs.selected.odd.bg = palette['background']
+    c.colors.tabs.selected.odd.bg = palette['purple']
 
     # ## Foreground color of selected odd tabs.
     # ## Type: QtColor
-    c.colors.tabs.selected.odd.fg = palette['foreground']
+    c.colors.tabs.selected.odd.fg = palette['background']
 
     ## Tab padding
     c.tabs.padding = padding
